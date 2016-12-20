@@ -1,0 +1,38 @@
+{
+  "name": "passport-okta-oauth",
+  "version": "0.0.1",
+  "description": "Passport strategy for authenticating with Okta using OAuth 2.0.",
+  "main": "lib/passport-okta-oauth/index.js",
+  "dependencies": {
+    "pkginfo": "0.2.x",
+    "passport-oauth": "~0.1.4",
+    "uid2": "0.0.3"
+  },
+  "devDependencies": {
+    "vows": "0.6.x"
+  },
+  "scripts": {
+    "test": "NODE_PATH=lib node_modules/.bin/vows test/*-test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/techstars/passport-okta-oauth"
+  },
+  "keywords": [
+    "passport",
+    "okta",
+    "auth",
+    "authn",
+    "authentication",
+    "identity"
+  ],
+  "author": {
+    "name": "Steven Chau",
+    "email": "steven.chau@techstars.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/techstars/passport-okta-oauth/issues"
+  },
+  "homepage": "https://github.com/techstars/passport-okta-oauth"
+}
