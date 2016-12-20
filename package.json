@@ -5,7 +5,7 @@
   "main": "lib/passport-okta-oauth/index.js",
   "dependencies": {
     "pkginfo": "0.2.x",
-    "passport-oauth": "~0.1.4",
+    "passport-oauth": "1.0.0",
     "uid2": "0.0.3"
   },
   "devDependencies": {
